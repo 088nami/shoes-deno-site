@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+body {
+    color: #121212;
+
+}
+h2{
+    text-align: center;
+}
+
+/*=========== 
+ヘッダー
+ ===========*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+header h1 {
+    height: 40px;
+}
+
+/*=========== 
+video
+ ===========*/
+#bg-video {
+    width: 100%;
+}
+
+/*=========== 
+pickup
+ ===========*/
+#pickup{
+    width: 100%;
+    padding: 100px 0 50px 0;
+}
+
+#pickup .slick-area li {
+    padding: 0 30px;
+  }
+/*=========== 
+Feature
+ ===========*/
+ #feature .grid {
+    display: grid;
+    gap: 26px;/*グリッド線を隔てる溝の幅*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   /*grid-template-columns垂直方向に/repeat繰り返して/auto-fitウィンドウ幅に合うように要素の大きさが変化する/minmax(300px, 1fr))最小が300px; */
+  }
+
+
+/*=========== 
+Contact
+ ===========*/
+#contact{
+    background-color: black;
+    color:#fff;
+}
